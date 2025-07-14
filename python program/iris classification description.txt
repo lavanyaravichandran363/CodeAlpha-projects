@@ -1,0 +1,77 @@
+🌸 Iris Flower Classification using Machine Learning
+This project is part of my Data Science Internship at CodeAlpha, where I worked on building a supervised machine learning model to classify iris flowers based on their physical characteristics.
+
+📘 Project Overview
+The Iris dataset is one of the most famous datasets used in machine learning. It contains 150 samples from three species of iris flowers (Setosa, Versicolor, Virginica), with four features each:
+
+Sepal Length
+
+Sepal Width
+
+Petal Length
+
+Petal Width
+
+The task is to predict the species of an iris flower based on these features using a classification algorithm.
+
+🛠 Tools and Technologies
+Language: Python
+
+IDE: Visual Studio Code (VS Code)
+
+Libraries:
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+Scikit-learn
+
+📈 Workflow
+Data Loading and Exploration
+Used pandas to load the dataset and explore its structure.
+
+Data Visualization
+Created scatter plots and pairplots using matplotlib and seaborn to understand relationships between features.
+
+Data Preprocessing
+Split the data into training and testing sets using train_test_split.
+
+Model Building
+Trained classification models such as:
+
+Logistic Regression
+
+K-Nearest Neighbors (KNN)
+
+Model Evaluation
+Evaluated the model using:
+
+Accuracy Score
+
+Classification Report
+
+Confusion Matrix
+
+🧠 Key Learnings
+Understood how classification models work
+
+Learned how to preprocess, visualize, and analyze structured data
+
+Gained confidence in writing and executing ML code in VS Code
+
+Practiced evaluating model performance with real metrics
+
+🚀 How to Run
+bash
+Copy
+Edit
+# Install dependencies
+pip install pandas matplotlib seaborn scikit-learn
+
+# Run the Python script
+python iris_classification.py
